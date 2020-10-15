@@ -1,4 +1,3 @@
 # php_calculator
-# Md. Habibullah dewan
+## Md. Habibullah dewan
 [] Should improve style.
-# https://habibullah1090.github.io/php_calculator/
