@@ -3,30 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Md. Habibullah || Calculator</title>
-	<style>
-		.sign,.add{
-			margin-top: 2rem;
-			background-color: #f9f9f9;
-			padding: 1rem 3rem;
-			border: 1px solid #f5ecec;
-		}
-	</style>
+	<title>php calculator</title>
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+	
+
+
 <div class="add">
-	<form method="GET" >
-		<input required type="text" name="num1" placeholder="Number 01" > 
-		<select name="operator" id="">
-			<option value="0">None</option>
-			<option value="+">Add</option>
-			<option value="-">Substract</option>
-			<option value="*">Multiply</option>
-			<option value="/">Devide</option>
-		</select>
-		<input required type="text" name="num2" min="0.01" placeholder="Number 02">
-		<input type="submit" value="Result">
-	</form>
+	<form method="GET">
+    <input required type="text" name="num1" placeholder="Number 01">
+    <select name="operator" id="">
+        <option value="0">None</option>
+        <option value="+">Add</option>
+        <option value="-">Substract</option>
+        <option value="*">Multiply</option>
+        <option value="/">Devide</option>
+    </select>
+    <input required type="text" name="num2" min="0.01" placeholder="Number 02">
+    <input type="submit" value="Result">
+</form>
 	<?php
 	if ( isset($_GET["num1"])) {
 		$num1 = $_GET["num1"];
